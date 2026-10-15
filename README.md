@@ -28,6 +28,3 @@ It contains no exercise. You don't need to change any code.
 5. The app should open with a green check and the message
    "Your setup is ready for the interview."
 6. Reply to confirm it worked, or send us any errors you hit.
-
-Keep the downloaded packages on your machine. The interview exercise uses the same ones,
-so it will run without internet on the day.
