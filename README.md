@@ -10,14 +10,24 @@ It contains no exercise. You don't need to change any code.
 
 ## Steps
 1. Run `flutter doctor` and fix any major errors.
-2. Clone this repo, then run (needs internet once, to download packages):
+2. Clone this repo and get the dependencies (needs internet once, to download packages):
    ```
    flutter pub get
-   flutter run
    ```
-3. The app should open with a green check and the message
+3. Start your emulator (or connect your phone), then find its device ID:
+   ```
+   flutter devices
+   ```
+   Example output: `sdk gphone64 x86 64 (mobile) • emulator-5554 • android-x64 ...`
+   The ID is the second column (`emulator-5554` here).
+4. Run the app on that device:
+   ```
+   flutter run -d emulator-5554
+   ```
+   Or select your device in the IDE's device picker and press Run.
+5. The app should open with a green check and the message
    "Your setup is ready for the interview."
-4. Reply to confirm it worked, or send us any errors you hit.
+6. Reply to confirm it worked, or send us any errors you hit.
 
 Keep the downloaded packages on your machine. The interview exercise uses the same ones,
 so it will run without internet on the day.
