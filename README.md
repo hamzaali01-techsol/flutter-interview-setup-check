@@ -4,7 +4,7 @@ This small app confirms your machine is ready for the practical part of the Flut
 It contains no exercise. You don't need to change any code.
 
 ## Requirements
-- Flutter **3.38 or newer** (stable channel). Check with `flutter --version`.
+- Flutter **3.38.1 or newer** (stable channel). Check with `flutter --version`.
 - An IDE (VS Code or Android Studio)
 - One of: Android emulator, iOS simulator, physical device, or Chrome/desktop as a fallback
 
