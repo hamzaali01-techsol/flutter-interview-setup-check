@@ -1,0 +1,22 @@
+name: setup_check
+description: "Environment check for the Flutter interview. Confirms your setup can build and run the practical exercise."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.0 # Flutter 3.38 or newer
+  flutter: ">=3.38.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  go_router: ^17.3.0
+  provider: ^6.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
